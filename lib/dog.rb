@@ -11,8 +11,9 @@
       @@all
     end
 
-    def Dog.all
-      @@all
-      puts "#{name}"
+    def self.all(name)
+      self.all.map do |name|
+        puts "#{name}"
+      end
     end
   end

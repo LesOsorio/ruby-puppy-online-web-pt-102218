@@ -12,12 +12,13 @@
       @@all.clear
     end
 
-    def self.all(name)
-      @@all
+    def self.all
+      @@all.each do |name|
       puts "#{name}"
+    end 
   end
 
     def name(name)
       puts "#{name}"
-    end 
+    end
 end

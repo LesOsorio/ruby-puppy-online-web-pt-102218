@@ -14,7 +14,7 @@
     end
 
     def self.all
-      @@all.each do |instance|
+      @@all.each do |dog|
       puts "#{name}"
     end
   end

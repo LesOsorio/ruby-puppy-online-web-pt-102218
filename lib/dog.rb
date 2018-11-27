@@ -16,4 +16,6 @@
       @@all
       puts "#{name}"
     end
+
+    Dog.name = "#{name}"
   end

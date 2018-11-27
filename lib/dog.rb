@@ -17,5 +17,5 @@
       puts "#{name}"
     end
 
-    Dog.name
+    Dog.name = name
   end

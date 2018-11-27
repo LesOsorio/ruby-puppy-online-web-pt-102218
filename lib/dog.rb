@@ -17,7 +17,7 @@
       puts "#{name}"
   end
 
-    def name
+    def name(name)
       puts "#{name}"
     end 
 end

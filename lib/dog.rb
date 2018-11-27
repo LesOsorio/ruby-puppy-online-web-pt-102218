@@ -16,6 +16,7 @@
       @@all.each do |name|
       puts "#{name}"
     end 
+    name
   end
 
     def name(name)

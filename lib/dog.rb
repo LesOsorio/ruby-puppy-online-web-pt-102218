@@ -11,7 +11,9 @@
       @@all
     end
 
-    def all
-      
+    def all(names)
+      names.map do |name|
+        puts "#{name}"
+      end
     end
   end

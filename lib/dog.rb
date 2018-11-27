@@ -17,5 +17,4 @@
       puts "#{name}"
     end
 
-    Dog.name
   end

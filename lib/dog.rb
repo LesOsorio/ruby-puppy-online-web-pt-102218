@@ -13,5 +13,6 @@
 
     def self.all
       @@all
+      puts "#{names}"
     end
   end

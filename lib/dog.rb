@@ -12,9 +12,6 @@
       @@all
     end
 
-    #def self.all(name)
-      #self.all.each do |name|
-      #puts "#{name}"
-      #end
-    #end
+    def self.all(name)
+      puts "#{name}"
   end

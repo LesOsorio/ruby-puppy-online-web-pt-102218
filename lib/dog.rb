@@ -11,7 +11,7 @@
       @@all
     end
 
-    def all(name)
-      @name = name
+    def all
+      
     end
   end

@@ -16,5 +16,6 @@
     def self.all(name)
       self.all.each do |name|
         puts "#{name}"
+      end
     end
   end

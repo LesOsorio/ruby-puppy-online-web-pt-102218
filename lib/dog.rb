@@ -14,6 +14,6 @@
     def all(name)
       all.each do |name|
       puts "#{name}"
-      end 
+      end
     end
   end

@@ -5,7 +5,7 @@
 
     def initialize(name)
       @name = name
-      
+
     end
 
     def self.clear_all
@@ -14,4 +14,5 @@
 
     def self.all(name)
       puts "#{name}"
+    end 
   end

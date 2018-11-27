@@ -11,7 +11,7 @@
       @@all
     end
 
-    def self.all
+    def Dog.all
       @@all
       puts "#{name}"
     end

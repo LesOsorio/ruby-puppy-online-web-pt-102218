@@ -7,7 +7,6 @@
     def initialize(name)
       @name = name
       counter =+1
-      @@all << @name
     end
 
     def self.clear_all

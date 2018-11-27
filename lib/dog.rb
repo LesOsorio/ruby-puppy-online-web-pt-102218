@@ -9,7 +9,7 @@
     end
 
     def self.clear_all
-      @@all
+      @@all.clear_all
     end
 
     def self.all(name)

@@ -15,7 +15,7 @@
 
     def self.all
       @@all.each do |dog|
-      puts "#{name}"
+      puts "#{dog}"
     end
   end
 end

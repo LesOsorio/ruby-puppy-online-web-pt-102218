@@ -12,7 +12,8 @@
       @@all.clear
     end
 
-    def self.all
+    def self.all(name)
       @@all
+      puts "#{name}"
   end
 end

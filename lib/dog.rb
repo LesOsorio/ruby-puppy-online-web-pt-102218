@@ -11,7 +11,9 @@
       @@all
     end
 
-    def self.all
-      @@all
+    def self.all(name)
+      @@all.each do |name|
+        puts "#{name}"
+      end 
     end
   end
